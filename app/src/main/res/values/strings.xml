@@ -1,0 +1,12 @@
+<resources>
+    <string name="about">“  青柚青创”APP是我们设计开发的一个青年创业就业服务类的基于Android手机的APP。APP为用户提供信息发布、岗位分析、课程培训、反馈与评价4大模块的服务，帮助解决当今青年创业就业难问题。
+作为综合型的网络服务平台，“青柚青创”APP主要以江苏高校在校生为用户，具体包括不同用户的管理、实习人员信息完善，实习人员水平评价，企业招聘信息发布及评论问答的交流项目等子服务，是一个基于MVC的O2O江苏青创孵化平台。
+APP广泛整合发布各类有关青年实习的社会资源，多方收集政策、项目、市场、岗位、培训、文化技术信息，建立一个庞大的信息库。同时，主动联合相关媒体和单位，建立互助社区，提供实习培训及指导，帮助大学生对创业项目进行孵化和优化。
+我们将尽力把APP开发得更加完善，希望可以得到广大用户的建议和助力。
+</string>
+    <string name="njupt_xx">信达天下，自强不息</string>
+    <string name="app_name">青柚青创</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search">Search</string>
+</resources>

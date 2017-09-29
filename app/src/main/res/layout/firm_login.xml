@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:textSize="@dimen/title_text_size"
+        android:background="@color/bg"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:text="个人"
+                android:background="@color/white"
+                android:id="@+id/f_person"
+                android:textSize="16sp"
+                android:textColor="@color/bg"
+                />
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:background="@color/bg"
+                android:text="企业"
+                android:id="@+id/f_firm"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:hint="请输入账号"
+                android:id="@+id/f_uname"
+                android:textSize="16sp"
+                android:background="@color/t"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="20dp"
+                android:hint="请输入密码"
+                android:id="@+id/f_pwd"
+                android:inputType="textPassword"
+                android:background="@color/t"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/title_text_size"
+                android:id="@+id/f_login"
+                android:textColor="@color/white"
+                android:layout_marginLeft="8dp"
+                android:text="登录"
+                android:gravity="center_horizontal"
+                android:background="@color/bg"
+                android:padding="8dp"
+                />
+
+            <Button
+                android:id="@+id/f_reg"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/bg"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="注册"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_text_size" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="26dp"
+                android:text="忘记密码?"
+                android:id="@+id/f_forget"
+                android:background="@null"
+                android:layout_marginLeft="286dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/red"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingTop="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:id="@+id/jobName"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:weightSum="1"
+                android:layout_width="256dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/jobFirm"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textSize="12dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jobDate"
+            android:layout_marginTop="36dp"
+            android:paddingLeft= "10dp"
+            android:paddingTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
